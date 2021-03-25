@@ -7,7 +7,6 @@
 	exit();
 	}
 	$conn = mysqli_connect("localhost", "root", "", "library");
-//	$conn = mysqli_connect("sql305.epizy.com", "epiz_26740930", "qmvx6qtNpDAf", "epiz_26740930_lib");
 
 	if (!$conn) {
 		die("Error connecting to database: " . mysqli_connect_error());
